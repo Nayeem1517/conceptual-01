@@ -11,7 +11,8 @@
 .logo{
     height: 100px;
     width: 180px;
-    margin-left: 25px;
+    margin-left: 0px;
+    margin-right: 320px;
 }
 .menu-items{
     padding: 30px;
@@ -31,7 +32,7 @@
     cursor: pointer;
 }
 .banner-container{
-    background-color:whitesmoke;
+    background-color:black;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -43,7 +44,7 @@
     color:  red;
 }
 .btn-primary{
-    background-color: red;
+    background-color: rgb(0, 255, 13);
     padding: 15px;
     border-radius: 2px;
     font-weight: bold;
@@ -53,4 +54,34 @@
     color: orange;
     cursor: pointer;
 
+}
+.section-title{
+    font-size: 50px;
+    font-weight: bold;
+    align-items: center;
+    color:black;
+    text-align: center;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(90, 3, 3);
+    padding: 15px;
+}
+.about-description{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 5px;
+}
+.text{
+    color:white;
+    font-size: 20px;
+
+}
+.banner-img{
+    height: 550px;
+    width: 100px;
+    margin-top: 300px;
 }
